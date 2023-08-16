@@ -1,4 +1,4 @@
-{% extends 'usuario/base.html' %}
+{% extends 'usuarios/base.html' %}
 {% block conteudo %}
     <form action="{% url 'listagem_usuarios' %}" method="post">
         {% csrf_token %}
